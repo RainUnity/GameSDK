@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MMoSDK</name>
+    </assembly>
+    <members>
+        <member name="T:MMoSDK.MMoSDK">
+            <summary>
+            适用于unity调用安卓端方法
+            </summary>
+        </member>
+        <member name="M:MMoSDK.MMoSDK.Init">
+            <summary>
+            SDK初始化
+            </summary>
+        </member>
+        <member name="M:MMoSDK.MMoSDK.Call(System.String,System.Object[])">
+            <summary>
+            调用Java端方法
+            </summary>
+            <param name="methodName"> string 方法名</param>
+            <param name="args">args 参数</param>
+        </member>
+    </members>
+</doc>
