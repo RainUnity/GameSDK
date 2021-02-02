@@ -12,10 +12,13 @@ Unity安卓SDK插件SDK
 1.将对应版本文件夹内的文件都拖到unity项目中
 2.在需要的脚本中引入using MMoSDK，并在调用前初始化(一般可以放在Awake中)，举个栗子，如脚本名叫test.cs
 
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using MMoSDK;
+
 public class test : MonoBehaviour {
 
   public Button btn;
@@ -35,5 +38,4 @@ public class test : MonoBehaviour {
 
 }
 
-
-
+```
